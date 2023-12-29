@@ -10,6 +10,7 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+  - iOS自定义.ttf字体
 
 ## Installation
 
@@ -18,6 +19,12 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'TTFFont_iOS'
+```
+
+## 使用方式
+```
+TTFFont.register()
+label2.font = .font(.extraBold, size: 17)
 ```
 
 ## Author
