@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'TTFFont_iOS_Example' do
+  pod 'TTFFont_iOS', :path => '../'
+
+  target 'TTFFont_iOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

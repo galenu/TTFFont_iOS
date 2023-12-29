@@ -1,0 +1,6 @@
+framework module TTFFont_iOS {
+  umbrella header "TTFFont_iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

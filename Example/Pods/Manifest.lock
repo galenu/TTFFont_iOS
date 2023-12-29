@@ -1,0 +1,18 @@
+PODS:
+  - TTFFont_iOS (0.0.1):
+    - TTFFont_iOS/src (= 0.0.1)
+  - TTFFont_iOS/src (0.0.1)
+
+DEPENDENCIES:
+  - TTFFont_iOS (from `../`)
+
+EXTERNAL SOURCES:
+  TTFFont_iOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TTFFont_iOS: b84aa8adb5f4e773ac5fd45e82a142e63aad1c32
+
+PODFILE CHECKSUM: a070c77bdd62f5afb57fc3abfe97a393dd6efd80
+
+COCOAPODS: 1.14.3
